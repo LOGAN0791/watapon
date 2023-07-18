@@ -1,7 +1,12 @@
+:root{
+    --encabezado:#91D8F7;
+}
+
 #logo{
     width: 50%;
 }
 
 #menu{
-    background-color: #91D8F7;
+    background-color:var(--encabezado) !important;
 }
+
