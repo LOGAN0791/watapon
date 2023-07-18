@@ -1,15 +1,22 @@
 :root{
     --encabezado:#91D8F7;
+    --enlace:rgb(255, 102, 0);
 }
 
 #logo{
-    width: 50%;
+    width: 40%;
 }
 
 #menu{
     background-color:var(--encabezado) !important;
 }
 
-a{
-    list-style: none !important;
+.nav-link{
+    color: var(--enlace);
+    font-weight: bold;
 }
+
+.nav-link:hover{
+    color:rgb(255, 255, 255);
+}
+
