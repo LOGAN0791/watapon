@@ -10,3 +10,6 @@
     background-color:var(--encabezado) !important;
 }
 
+a{
+    list-style: none !important;
+}
