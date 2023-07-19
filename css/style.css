@@ -3,7 +3,16 @@
     --enlace:rgb(255, 102, 0);
 }
 
+*  {
+    box-sizing: border-box;
+}
+
 #logo{
+    width: 900%;
+    
+}
+
+.container-fluid{
     width: 40%;
 }
 
@@ -14,9 +23,9 @@
 .nav-link{
     color: var(--enlace);
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .nav-link:hover{
     color:rgb(255, 255, 255);
 }
-
