@@ -27,7 +27,18 @@
 }
 
 .nav-link.active{
-    color: #ffffff !important;
+    color: #0000ff !important;
     font-weight: bold !important;
 }
 
+/* servicios */
+#servicios{
+    background-color: var(--encabezado);
+}
+
+#servicios .titulo{
+    width: 100%;
+    text-align: center;
+    color: var(--enlace);
+    font-weight: bold;
+}
