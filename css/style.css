@@ -3,15 +3,7 @@
     --enlace:rgb(255, 102, 0);
 }
 
-*  {
-    box-sizing: border-box;
-}
-
 #logo{
-    width: 900%;
-}
-
-.container-fluid{
     width: 40%;
 }
 
@@ -28,3 +20,14 @@
 .nav-link:hover{
     color:rgb(255, 255, 255);
 }
+
+.alto-img{
+    height: 500px !important;
+    padding-top: 55px !important;
+}
+
+.nav-link.active{
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
