@@ -120,9 +120,30 @@ body{
     list-style: none;
 }
 
-.ft__tittle{
+.footter__tittle{
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 30px;
     font-size: 1.2rem;
 }
+
+.footer__info{
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 1.0rem;
+}
+
+/*bordear de color los enlaces*/
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #ffdd00;
+}
+
+.footer__link:nth-child(2){
+    border-left: 2px solid #00ff00;
+}
+
+.footer__link:nth-child(3){
+    border-left: 2px solid #ff9d00;
+}
+
