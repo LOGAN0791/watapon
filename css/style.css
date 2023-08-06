@@ -159,5 +159,6 @@ body{
 /*pagina de contacto*/
 #Contacto .titulo{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 105px;
+    text-align: center;
 }
