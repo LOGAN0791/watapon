@@ -155,3 +155,9 @@ body{
     text-align: center;
     background-color: #00bfff;
 }
+
+/*pagina de contacto*/
+#Contacto .titulo{
+    width: 100%;
+    margin-top: 15px;
+}
