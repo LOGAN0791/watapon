@@ -147,3 +147,11 @@ body{
     border-left: 2px solid #ff9d00;
 }
 
+/* modificar creditos */
+
+.footer-credits{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    background-color: #00bfff;
+}
