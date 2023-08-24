@@ -171,7 +171,35 @@ body{
 }
 
 /*pagina de contacto*/
-#quienes_somos .accordionExample{
+.acordeon{
     width: 100%;
-    margin-top: 500px;
+    margin-top: 180px;
     text-align: center;
+}
+
+/*pagina recreacion*/
+.titulo_fotos{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo_cotiza_recreacion{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo_recreacion{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
