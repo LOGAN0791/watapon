@@ -13,9 +13,9 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="images/Cara_watapon_icon.ico" type="image/x-icon">
 </head>
-<body>
-    <!-- Menu y el logo -->
-      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
+<body id="body">
+<!-- Menu y el logo -->
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
         <div class="container-fluid">
             <!--logo -->
           <a class="navbar-brand" href="#">
@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
+            <ul class="navbar-nav mx-auto my-2 my-lg- navbar-nav-scroll">
               <!-- Inicio -->
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Inicio</a>
@@ -46,8 +46,6 @@
                   <li><a class="dropdown-item" href="zona_infantil.html">Zona Infantil</a></li>
                   <li><a class="dropdown-item" href="cama_elastica.html">Cama Elastica</a></li>
                   <li><a class="dropdown-item" href="pintacaritas_globoflexia.html">Pintacaritas y Globoflexia</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="otros_servicios.html">Otros Servicios</a></li>
                 </ul>
               </li>
               <!-- Contactanos -->
@@ -72,10 +70,10 @@
               <a href="https://wa.me/3146675890" target="_blank" class="btn btn-primary">COTIZAR</a>
           </div>
         </div>
-      </nav>
+</nav>
 
-      <!-- slider -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!-- slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -112,172 +110,130 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
-      </div>
+</div>
 
 <!-- servicios -->
 <div class="row row-cols-1 row-cols-md-3 g-9 p-5" id="servicios">
-  <h2 class="titulo">Servicios</h2>
+  <h1 class="titulo">SERVICIOS</h1>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/magia_seccion.JPG" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/1.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Show de Magia</h5>
-        <a href="show_de_magia.html" target="_blank" class="btn btn-primary">VER MAS</a>
+        <h5 class="card-title">RECREACION</h5>
+        <a href="recreacion.html" target="_blank" class="btn btn-primary" id="botones-cards">VER MAS</a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/titeres_seccion.jpg" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/2.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Show de Titeres</h5>
+        <h5 class="card-title">SHOW DE TITERES</h5>
         <a href="#show_de_titeres" target="_blank" class="btn btn-primary">VER MAS</a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/recreacion_seccion.JPG" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/3.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Recreacion</h5>
-        <a href="#recreacion" target="_blank" class="btn btn-primary">VER MAS</a>
+        <h5 class="card-title">SHOW DE PAYASOS</h5>
+        <a href="show_de_payasos.html" target="_blank" class="btn btn-primary">VER MAS</a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/hl_seccion.jpg" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/4.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Hora Loca</h5>
-        <a href="#hora_loca" target="_blank" class="btn btn-primary">VER MAS</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Images/atraccion_seccion.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">cama Elastica</h5>
-        <a href="#atracciones" target="_blank" class="btn btn-primary">VER MAS</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Images/Payasos_seccion.JPG" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Show de Payasos</h5>
-        <a href="#show_de_payasos" target="_blank" class="btn btn-primary">VER MAS</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Images/magia_seccion.JPG" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Zona infantil</h5>
+        <h5 class="card-title">SHOW DE MAGIA</h5>
         <a href="show_de_magia.html" target="_blank" class="btn btn-primary">VER MAS</a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/magia_seccion.JPG" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/5.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Pinta Caritas y Globoflexia</h5>
-        <a href="show_de_magia.html" target="_blank" class="btn btn-primary">VER MAS</a>
+        <h5 class="card-title">SONIDO Y LUCES</h5>
+        <a href="hora_loca.html" target="_blank" class="btn btn-primary">VER MAS</a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="Images/magia_seccion.JPG" class="card-img-top" alt="...">
+      <img src="Images/img_seccion_servicios/6.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Otros Servicios</h5>
-        <a href="show_de_magia.html" target="_blank" class="btn btn-primary">VER MAS</a>
+        <h5 class="card-title">ZONA INFANTIL</h5>
+        <a href="zona_infantil.html" target="_blank" class="btn btn-primary">VER MAS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/img_seccion_servicios/7.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMA ELASTICA</h5>
+        <a href="cama_elastica.html" target="_blank" class="btn btn-primary">VER MAS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/img_seccion_servicios/8.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PINTA CARITAS Y GLOBOFLEXIA</h5>
+        <a href="otros_servicios.html" target="_blank" class="btn btn-primary">VER MAS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/Cara_Watapon.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Cotiza tu evento -->
-<main>
+<main id="seccion-cotizar">
   <div class="container" id="contacto">
-  <h1 class="titulo">Contacto</h1>
-  <form class="row g-3" mailto: action="mailto: desarrollofrontedcol@gmail.com" method="post">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">nombre completo</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Direccion del evento</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Celular</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">servicios que requiere</label>
-      <select id="inputState" class="form-select">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Cod. Postal  </label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Acepta los terminos y Condiciones
-        </label>
-      </div>
-    </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-  </form> 
-</div>
+  <h1 class="titulo">COTIZA TU EVENTO</h1>
+  <div class="container" id="cotizar-evento">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZVCVyR_xajczCocaIx3ENIJZnC-ZLANg5se2xqP7VqXkd4A/viewform?embedded=true" width="1080" height="1080" frameborder="0" marginheight="0" marginwidth="0" id="encuesta">Cargando…</iframe>
+  </div>
+  </div>
 </main>
 
 <!-- Call Action  - Promocion del Mes -->
 <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="promociondelmes"></div>
 <div class="container-fluid py-5">
-  <h1 class="display-5 fw-bold">Promocion del Mes</h1>
+  <h1 class="display-5 fw-bold">PROMOCION DEL MES DE SEPTIEMBRE</h1>
   <p class="col-md-8 fs-4">
-    Por este mes de Septiembre tenemos el paquete emocionante con el 20% de descuento, aprovechalo ya!!!
+    Por este mes de Septiembre tenemos el paquete emocionante por tan solo $150.000 Aprovechalo ya!!!
     <a href="https://wa.me/3146675890" target="_blank" class="btn btn-primary">MAS INFORMACION</a>
   </p>
 </div>
   <div class="row row-cols-1 row-cols-md-3 g-6 p-5" id="promocioncontenido">
     <div class="col">
       <div class="card h-100">
-        <img src="Images/magia_seccion.JPG" class="card-img-top" alt="...">
+        <img src="Images/Promocion_del_mes/1.png" class="card-img-top" alt="...">
         <div class="card-body">
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="Images/titeres_seccion.jpg" class="card-img-top" alt="...">
+        <img src="Images/Promocion_del_mes/2.png" class="card-img-top" alt="...">
         <div class="card-body">
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="Images/recreacion_seccion.JPG" class="card-img-top" alt="...">
+        <img src="Images/Promocion_del_mes/3.png" class="card-img-top" alt="...">
         <div class="card-body">
         </div>
       </div>

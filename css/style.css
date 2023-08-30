@@ -1,11 +1,13 @@
 :root{
     --encabezado:#91D8F7;
     --enlace:rgb(255, 102, 0);
+    --fondos: #007bff;
 }
 
 /*para que no quede barra espaciadora horizontal*/
 body{
     overflow-x: hidden;
+    background-color: var(--encabezado);
 }
 
 #logo{
@@ -16,10 +18,20 @@ body{
     background-color:var(--encabezado) !important;
 }
 
+.dropdown-menu{
+    background-color: var(--enlace);
+}
+
+.dropdown-item{
+    color: var(--encabezado);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 .nav-link{
     color: var(--enlace);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 100%;
 }
 
@@ -37,6 +49,10 @@ body{
     font-weight: bold !important;
 }
 
+#carouselExampleIndicators{
+    margin-top: 180px;
+}
+
 /* servicios */
 #servicios{
     background-color: var(--encabezado);
@@ -47,7 +63,39 @@ body{
     text-align: center;
     color: var(--enlace);
     font-weight: bold;
+    margin-bottom: 50px;
 }
+
+#servicios .card-title{
+    width: 100%;
+    text-align: center;
+    color: var(--enlace);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#servicios .card-body{
+    background-color: var(--encabezado);
+}
+
+#botones-cards{
+    text-align: center;
+}
+
+#contacto .titulo{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--enlace);
+    font-weight: bold;
+}
+
+#seccion-cotizar{
+    background-color: var(--encabezado);
+}
+
+
 
 /* seccion videos */
 
@@ -156,13 +204,6 @@ body{
     background-color: #00bfff;
 }
 
-/*pagina de contacto*/
-#contacto .titulo{
-    width: 100%;
-    margin-top: 180px;
-    text-align: center;
-}
-
 /* simulador */
 #simulador .titulo{
     width: 100%;
@@ -174,32 +215,5 @@ body{
 .acordeon{
     width: 100%;
     margin-top: 180px;
-    text-align: center;
-}
-
-/*pagina recreacion*/
-.titulo_fotos{
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.titulo_cotiza_recreacion{
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.row{
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.titulo_recreacion{
-    width: 100%;
-    margin-top: 200px;
     text-align: center;
 }
