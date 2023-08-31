@@ -228,7 +228,6 @@ body{
     color: var(--enlace);
 }
 /* descripcion */
-
 #descripcion-serv{
     font-weight: bold;
     text-align: left;
@@ -241,7 +240,6 @@ body{
 }
 
 /* videos */
-
 #Videos{
     background-color: #ffffff;
 }
@@ -253,4 +251,12 @@ body{
 
 .row{
     padding-top: 0px;
+}
+
+/* pagina de contacto */
+
+/* formulario */
+#seccion-contacto{
+    width: 100%;
+    margin-top: 180px;
 }
