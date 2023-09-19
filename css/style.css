@@ -61,7 +61,7 @@ body{
 }
 
 .nav-link:hover{
-    color:rgb(255, 255, 255);
+    color: var(--fondos);
 }
 
 .alto-img{
