@@ -1,6 +1,6 @@
 :root{
     --encabezado:#91D8F7;
-    --enlace:rgb(255, 102, 0);
+    --enlace: #F58634;
     --fondos: #007bff;
 }
 
@@ -28,6 +28,29 @@ body{
     color: var(--encabezado);
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.btn{
+    margin-right: 50px;
+    background-color: var(--enlace);
+    width: 150px;
+    height: 50px;
+}
+
+#boton_promocion{
+    margin-right: 50px;
+    margin-top: 30px;
+    background-color: var(--enlace);
+    width: 150px;
+    height: 70px;
+}
+
+.collapse #boton_cotizar{
+    font-size: 1.5rem;
 }
 
 .nav-link{
@@ -82,6 +105,7 @@ body{
 
 #botones-cards{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 /* cotiza tu evento */
@@ -97,16 +121,23 @@ body{
 
 #seccion-cotizar{
     background-color: var(--encabezado);
+    margin-bottom: 50px;
 }
 
 /* promocion del mes */
 
 #texto-promocion{
     font-weight: bold;
+    margin-left: 100px;
 }
 
 #titulo-promocion{
     color: var(--enlace);
+    margin-left: 100px;
+}
+
+.card-body{
+    padding: 0px;
 }
 
 /* footer */
@@ -161,6 +192,14 @@ body{
     display: inline-block;
     font-size: 14px;
     line-height: inherit;
+}
+
+.ft-social-row{
+    text-align: center;
+}
+
+.ft{
+    margin-right: 30px;
 }
 
 .ft-link{
