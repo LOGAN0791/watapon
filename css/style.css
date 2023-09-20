@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
 :root{
+/* colores empresariales */
     --encabezado:#91D8F7;
     --enlace: #F58634;
     --fondos: #007bff;
-}
 
+/* fuentes */
+--titulo: 'Viga', sans-serif;
+}
 /*para que no quede barra espaciadora horizontal*/
 body{
     overflow-x: hidden;
@@ -32,6 +37,7 @@ body{
 
 .nav-item{
     margin-right: 30px;
+    font-family: var(--titulo);
 }
 
 .btn{
@@ -292,10 +298,30 @@ body{
     padding-top: 0px;
 }
 
-/* pagina de contacto */
-
 /* formulario */
 #seccion-contacto{
     width: 100%;
     margin-top: 180px;
+}
+
+/* pagina de quienes somos */
+.accordion-button{
+    background-color: #e1e1e1;
+    color: var(--enlace);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#collapseOne{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#collapseTwo{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#tituloeventoempresariales{
+    text-align: center;
 }
