@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 
+
 :root{
 /* colores empresariales */
     --encabezado:#91D8F7;
@@ -7,13 +8,14 @@
     --fondos: #007bff;
 
 /* fuentes */
---titulo: 'Viga', sans-serif;
+    --titulo: 'Viga', sans-serif;
 }
+
 /*para que no quede barra espaciadora horizontal*/
 body{
     overflow-x: hidden;
     background-color: var(--encabezado);
-}
+}   
 
 #logo{
     width: 500px;
@@ -309,19 +311,66 @@ body{
     background-color: #e1e1e1;
     color: var(--enlace);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-left: 900px;
 }
 
 #collapseOne{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #collapseTwo{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+#titulo_nosotros{
+    text-align: left;
+    color: var(--enlace);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    background-color: var(--encabezado);
 }
 
 #tituloeventoempresariales{
     text-align: center;
+    color: var(--enlace);
+}
+
+#textoempresarial{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#obrassociales{
+    text-align: center;
+    color: var(--enlace);
+}
+
+#textoobrasocial{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+#videosobrassociales{
+    text-align: center;
+    color: var(--enlace);
+}
+
+#titulocapacitamos{
+    text-align: center;
+    color: var(--enlace);
+}
+
+#textocapacitamos{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
 }
