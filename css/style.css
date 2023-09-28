@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
-
+@font-face {
+    font-family: "snap-itc-regular";
+    src: url("../fonts/design.graffiti.SNAP____.ttf");
+    src: url("../fonts/design.graffiti.SNAP____.ttf");
+    }
 
 :root{
 /* colores empresariales */
@@ -8,7 +12,8 @@
     --fondos: #007bff;
 
 /* fuentes */
-    --titulo: 'Viga', sans-serif;
+    --textos: 'Viga', sans-serif;
+    --titulos: 'snap-itc-regular', sans-serif;
 }
 
 /*para que no quede barra espaciadora horizontal*/
@@ -34,12 +39,12 @@ body{
 .dropdown-item{
     color: var(--encabezado);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .nav-item{
     margin-right: 30px;
-    font-family: var(--titulo);
+    font-family: var(--titulos);
 }
 
 .btn{
@@ -59,12 +64,13 @@ body{
 
 .collapse #boton_cotizar{
     font-size: 1.5rem;
+    font-family: var(--titulos);
 }
 
 .nav-link{
     color: var(--enlace);
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 100%;
 }
 
@@ -97,6 +103,7 @@ body{
     color: var(--enlace);
     font-weight: bold;
     margin-bottom: 50px;
+    font-family: var(--titulos);
 }
 
 #servicios .card-title{
@@ -105,6 +112,7 @@ body{
     color: var(--enlace);
     font-weight: bold;
     font-size: 1.8rem;
+    font-family: var(--titulos);
 }
 
 #servicios .card-body{
@@ -113,7 +121,8 @@ body{
 
 #botones-cards{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: var(--titulos);
 }
 
 /* cotiza tu evento */
@@ -125,6 +134,7 @@ body{
     text-align: center;
     color: var(--enlace);
     font-weight: bold;
+    font-family: var(--titulos);
 }
 
 #seccion-cotizar{
@@ -142,10 +152,16 @@ body{
 #titulo-promocion{
     color: var(--enlace);
     margin-left: 100px;
+    font-family: var(--titulos);
 }
 
 .card-body{
     padding: 0px;
+}
+
+#boton_promocion{
+    font-family: var(--titulos);
+    font-size: 0.9rem;
 }
 
 /* footer */
@@ -252,14 +268,15 @@ body{
     background-color: #00bfff;
 }
 
-/* simulador */
+/* simulador
 #simulador .titulo{
     width: 100%;
     text-align: center;
     margin-top: 150px;
-}
+}*/
 
 /*pagina de contacto*/
+
 .acordeon{
     width: 100%;
     margin-top: 180px;
@@ -273,6 +290,7 @@ body{
     font-weight: bold;
     text-align: center;
     color: var(--enlace);
+    font-family: var(--titulos);
 }
 /* descripcion */
 #descripcion-serv{
@@ -333,11 +351,13 @@ body{
     margin-left: 50px;
     font-weight: bold;
     background-color: var(--encabezado);
+    font-family: var(--titulos);
 }
 
 #tituloeventoempresariales{
     text-align: center;
     color: var(--enlace);
+    font-family: var(--titulos);
 }
 
 #textoempresarial{
@@ -349,6 +369,7 @@ body{
 #obrassociales{
     text-align: center;
     color: var(--enlace);
+    font-family: var(--titulos);
 }
 
 #textoobrasocial{
@@ -366,6 +387,7 @@ body{
 #titulocapacitamos{
     text-align: center;
     color: var(--enlace);
+    font-family: var(--titulos);
 }
 
 #textocapacitamos{
